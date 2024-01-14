@@ -15,13 +15,15 @@ span{
 }
 
 /* navbar section */
+ 
 #header{
+    max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 80px;
     background-color: #E3E6F3 ;
-    position: sticky;
+    position: sticky; 
     top: 0;
     left: 0;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
@@ -57,6 +59,8 @@ span{
 
 /* banar start  */
 .banar{
+    margin-top: 80px;
+    max-width: 1300px;
     padding: 40px 80px;
     display: flex;
     align-items: center;
@@ -106,7 +110,9 @@ span{
 /* banar end */
 
 /* main section start */
-
+main{
+    max-width: 1300px;
+}
 /* different section */
 .different-logo{
     margin: 60px 100px;
@@ -116,6 +122,80 @@ span{
     gap: 20px;
 }
 
+/* popular collection start */
+.Popular-Collection{
+    margin: 60px 100px;
+}
+.Popular-Collection h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px 0;
+}
+.popular-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+
+.box-cart{
+    width: 329px;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.box-cart h3{ 
+    font-family: Poppins;
+    font-size: 28px; 
+    font-weight: 500;
+    line-height: 40px; 
+    color: skyblue;
+    /* background: linear-gradient(to top,#7ecdec,#a6d5e7);
+    background-clip: text; */
+    padding: 12px 0;
+}
+.box-cart .icons{
+    color:  #FB8200 ;
+    padding-bottom: 10px;
+}
+.box-cart .icons a{
+    padding-left: 5px;
+}
+.box-cart p{
+    color: #787885 ;
+    font-family: Inter;
+    font-size: 14px; 
+    font-weight: 700;  
+    letter-spacing: 0.252px;
+    width: 80%;
+}
+/* popular end */
+.gear-img{
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.gear-content h2{
+    padding: 15px 0;
+    font-size: 2rem;
+}
+.btn-second{
+     
+        color: #FFF; 
+        font-family: Poppins;
+        font-size: 16px; 
+        font-weight: 700; 
+        border-radius: 10px;
+        background: #E02C6D;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        margin-top: 2rem;
+        text-align: center;
+    
+}
 /* Media quiry */
 @media screen and (max-width:576px) {
     .logo{
@@ -134,7 +214,7 @@ span{
         right:  -250px; 
         height: 100vh;
         width: 250px;
-        background-color: #e3e6f3c4;
+        background-color: #e3e6f3e5;
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
         padding: 80px 0 0 10px;
         transition: 0.3s;
@@ -189,5 +269,23 @@ span{
         padding-bottom: 20px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
+    }
+    /* opular section */
+    .Popular-Collection{
+        margin: 60px 30px;
+    }
+     
+    .popular-content{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* grid-template-columns: repeat(1,1fr);  */
+    }
+    .gear-img{
+        padding: 50px 60px;
+        flex-direction: column-reverse; 
+    }
+    .gear-content{
+        text-align: center;
     }
 }
