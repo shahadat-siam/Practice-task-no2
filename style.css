@@ -105,6 +105,17 @@ span{
 }
 /* banar end */
 
+/* main section start */
+
+/* different section */
+.different-logo{
+    margin: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
 /* Media quiry */
 @media screen and (max-width:576px) {
     .logo{
@@ -171,4 +182,12 @@ span{
         line-height: 3.5rem;  
     }
     /* header section end */
+
+    /* main section start */
+    .different-logo{
+        margin: 60px 60px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 }
