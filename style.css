@@ -21,11 +21,12 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 80px;
+    padding: 20px 80px;
     background-color: #E3E6F3 ;
     position: sticky; 
     top: 0;
-    left: 0;
+ 
+    left: 0; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 }
 .logo{
@@ -58,8 +59,8 @@ span{
 /* navbar end */
 
 /* banar start  */
-.banar{
-    margin-top: 80px;
+.banar{ 
+    margin-top: 30px;
     max-width: 1300px;
     padding: 40px 80px;
     display: flex;
@@ -70,24 +71,21 @@ span{
     padding-right: 8rem;
 }
 .banar-content h1{
-    color: #3A3A3A;
-    font-feature-settings: 'clig' off, 'liga' off;
+    color: #3A3A3A; 
     font-family: Poppins;
     font-size:3rem;
     font-weight: 700;
     line-height: 70px;  
 }
 .banar-content p{
-    color: #3A3A3A;
-    font-feature-settings: 'clig' off, 'liga' off;
+    color: #3A3A3A; 
     font-family: Poppins;
     font-size: 1rem; 
     font-weight: 600;
     padding-top: 1rem; 
 }
 .btn{
-    color: #FFF;
-    font-feature-settings: 'clig' off, 'liga' off;
+    color: #FFF; 
     font-family: Poppins;
     font-size: 16px; 
     font-weight: 700; 
@@ -100,18 +98,18 @@ span{
     text-align: center;
 }
 .camera-img{
-    border-radius: 50%;
-    border: 3px solid   #F1E4FF;
-    padding:1rem 2rem ;
+     padding: 2rem 2rem;
+      
 }
 .camera-img img{
-    width: 100%;
+     width: 100%;
+   
 }
 /* banar end */
 
 /* main section start */
 main{
-    max-width: 1300px;
+    max-width: 1300px; 
 }
 /* different section */
 .different-logo{
@@ -127,6 +125,9 @@ main{
     margin: 60px 100px;
 }
 .Popular-Collection h1{
+    background: linear-gradient( 90deg,rgb(5, 27, 219),#2a96b1);
+    background-clip: text;
+    color: transparent;  
     text-align: center;
     font-size: 2rem;
     padding: 50px 0;
